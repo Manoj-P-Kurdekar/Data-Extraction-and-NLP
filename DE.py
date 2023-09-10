@@ -25,7 +25,7 @@ def fog_index(text):
     return 0.4 * (average_sentence_length(text) + percentage_complex_words(text))
 
 # Load input data from input.xlsx
-input_df = pd.read_excel(r"C:\Users\manoj\OneDrive - Zoro\Desktop\Work\BlackCoffer\20211030 Test Assignment\Input.xlsx")
+input_df = pd.read_excel(r"Input.xlsx")
 
 # Initialize an output workbook and worksheet
 output_wb = Workbook()
